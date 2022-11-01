@@ -1,7 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import AnimatedText from '../Components/AnimatedText'
-import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import Script from 'next/script'
 
@@ -32,7 +30,10 @@ export default function Home() {
         {/* <AnimatedText text1="we are drowning in information," text2="but starving for answers." /> */}
         <div>
           <h1 className='text-[16px] md:text-[24px] font-semibold text-[#D7E5CF]'>why are we doing this?</h1>
-          <img className='py-4 md:py-8 w-[500px] h-[300px] md:h-auto' src='https://i.imgur.com/bduTQyk.png' alt="we are drowning" />
+          {/* <img className='py-4 md:py-8 w-[500px] h-[300px] md:h-auto' src='https://i.imgur.com/bduTQyk.png' alt="we are drowning" /> */}
+          <div className='my-3 md:my-6 w-[300px] h-[300px] md:w-[500px] md:h-[500px] relative'>
+            <Image src='/mvp.png' alt="mvp" layout='fill' objectFit='cover' />
+          </div>
           <div className='flex flex-col justify-center items-start gap-2  '>
             <Link href='/about'>
               <p className='hover:underline text-[#D7E5CF] text-[14px] md:text-base'>know more about us</p>
