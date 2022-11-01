@@ -20,7 +20,7 @@ export default function Careers() {
 						target="_blank"
 						rel="noreferrer"
 					>
-						@sohom
+						twitter/@sohom
 					</a>
 				</p>
 			</div>
