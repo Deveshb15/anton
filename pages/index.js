@@ -39,7 +39,7 @@ export default function Home() {
               <p className='hover:underline text-[#D7E5CF] text-[14px] md:text-base'>know more about us</p>
             </Link>
             <Link href='/careers'>
-              <p className='hover:underline text-[#D7E5CF] text-[14px] md:text-base'>interested? we are hiring</p>
+              <p className='hover:underline text-[#D7E5CF] text-[14px] md:text-base'>interested? we are hiring⚡</p>
             </Link>
             {/* <button className='px-6 py-2 bg-black text-white border rounded-xl transform transition-all hover:scale-105 hover:bg-white hover:text-black'>register</button> */}
             {/* <button className='px-6 py-2 bg-black text-white border rounded-xl transform transition-all hover:scale-105 hover:bg-white hover:text-black'>join us!</button> */}
