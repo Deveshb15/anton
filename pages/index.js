@@ -3,6 +3,7 @@ import Image from 'next/image'
 import AnimatedText from '../Components/AnimatedText'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import Script from 'next/script'
 
 export default function Home() {
   return (
@@ -12,8 +13,20 @@ export default function Home() {
         <title>Anton</title>
         <meta name="description" content="we are drowning in information, but starving for answers." />
         <link rel="icon" href="/favicon.ico" />
-
       </Head>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-20ZJE8X981"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-20ZJE8X981');
+        `}
+      </Script>
 
       <div className='flex flex-col'>
         {/* <AnimatedText text1="we are drowning in information," text2="but starving for answers." /> */}
