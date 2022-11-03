@@ -29,9 +29,11 @@ export default function Home() {
       <div className='flex flex-col'>
         {/* <AnimatedText text1="we are drowning in information," text2="but starving for answers." /> */}
         <div>
+          <h1 className='text-[16px] md:text-[24px] font-semibold text-[#D7E5CF]'>what are we?</h1>
+          <p className='text-[12px] md:text-[16px] text-[#D7E5CF] pb-2 italic'>one stop solution to all your problems.</p>
           <h1 className='text-[16px] md:text-[24px] font-semibold text-[#D7E5CF]'>why are we doing this?</h1>
           {/* <img className='py-4 md:py-8 w-[500px] h-[300px] md:h-auto' src='https://i.imgur.com/bduTQyk.png' alt="we are drowning" /> */}
-          <div className='my-3 md:my-6 w-[300px] h-[300px] md:w-[500px] md:h-[500px] relative'>
+          <div className='my-2 md:my-4 w-[300px] h-[300px] md:w-[500px] md:h-[500px] relative'>
             <Image src='/mvp.png' alt="mvp" layout='fill' objectFit='cover' />
           </div>
           <div className='flex flex-col justify-center items-start gap-2  '>
@@ -40,6 +42,9 @@ export default function Home() {
             </Link>
             <Link href='/careers'>
               <p className='hover:underline text-[#D7E5CF] text-[14px] md:text-base'>interested? we are hiring⚡</p>
+            </Link>
+            <Link href='/changelog'>
+              <p className='hover:underline text-[#D7E5CF] text-[14px] md:text-base'>changelog</p>
             </Link>
             {/* <button className='px-6 py-2 bg-black text-white border rounded-xl transform transition-all hover:scale-105 hover:bg-white hover:text-black'>register</button> */}
             {/* <button className='px-6 py-2 bg-black text-white border rounded-xl transform transition-all hover:scale-105 hover:bg-white hover:text-black'>join us!</button> */}
